@@ -20,6 +20,7 @@
                 <li><a ref="#home">Home</a></li>
                 <li><a href="#shop">Shop</a></li>
                 <li><a href="#contact">Contact</a></li>
+               <li><a href="#cart"><i class="fas fa-shopping-cart"></i> Cart (<span id="cart-count">0</span>)</a></li>
             </ul>
         </nav>  
             </div>
@@ -195,10 +196,16 @@
                 </div>
             </div>
         </section>
-        
-       
+        <div class="container">
           
        
+        <section id="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p id="cart-total"></p>
+    <button id="sendWhatsApp" onclick="sendCartDetails()"> Conform your order</button>
+</section>
+         </div>
         <div class="container">
             <h2 class="footer-title">Our Services</h2>
             <div class="footer-services">
@@ -223,7 +230,7 @@
                    <a href="https://www.instagram.com/ep.brands_"> <i class="fab fa-instagram">Instagram</i></a>
                    <br>
                    <a href="mailto: epbrands01@gmail.com"><i class="fas fa-envelope"> Gmail</i></a> <br>
-                   <a href="https://chat.whatsapp.com/BCYiBNY3AaG6YSe82VzpRB"><i class="fab fa-whatsapp">WhatsApp</i></a> <br>
+                   <a href="https://wa.me/qr/UX5YXGENWUDWG1"><i class="fab fa-whatsapp">WhatsApp</i></a> <br>
                     <a href="tel:+8735890374"><i class="fa fa-phone-square"> Phone no.</i></a>
                     <br>
                     
@@ -243,4 +250,4 @@
 
     <script src="script.js"></script>
 </body>
-  </html>
+</html>
