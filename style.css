@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-    max-width: 99%;
-    padding: 20px;
+    max-width: 90%;
+    padding: 13px;
 }
 
 h2 {
@@ -231,7 +231,7 @@ footer {
     background-color: silver;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 2em 0;
+    margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeInUp 0.5s ease-in-out;
 }
@@ -298,3 +298,4 @@ button#sendWhatsApp {
 button#sendWhatsApp:hover {
     background-color: #20b058;
 }
+
