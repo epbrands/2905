@@ -67,7 +67,7 @@ function sendCartDetails() {
 // Function to auto-reply with a thank you message
 function autoReplyThankYou() {
     setTimeout(() => {
-        const thankYouMessage = "Thank you for your order! We will process it shortly. Give me your contact details.";
+        const thankYouMessage = "Thank you for your order! We will process it shortly.";
         const encodedMessage = encodeURIComponent(thankYouMessage);
         const phoneNumber = '+919727930374'; // Replace with the user's WhatsApp number or your own
         const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
